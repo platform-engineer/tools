@@ -81,6 +81,32 @@ Kubernetes with Rancher
 
 
 
+## GraalVM
+
++ [GraalVM](https://www.graalvm.org/latest/docs/)
+
+
++ [Get Started with GraalVM](https://www.graalvm.org/22.3/docs/getting-started/)
+
+> # Get Started with GraalVM
+> 
+> Get started with GraalVM – is a high-performance JDK designed to accelerate Java application performance while consuming fewer resources. GraalVM offers two ways to run Java applications: on the HotSpot JVM with Graal just-in-time (JIT) compiler or as an ahead-of-time (AOT) compiled native executable. Besides Java, it provides runtimes for JavaScript, Ruby, Python, and a number of other popular languages. GraalVM’s polyglot capabilities make it possible to mix programming languages in a single application while eliminating any foreign language call costs.
+> 
+> Here you will find information about installing GraalVM Community Edition, running basic applications with it, and adding support for accompanying features. Further, you will learn about the polyglot capabilities of GraalVM and see how to build platform-specific native executables of Java applications.
+> 
+
+
+[Java on Truffle](https://www.graalvm.org/22.3/reference-manual/java-on-truffle/)
+
+> # Java on Truffle
+> 
+> Using GraalVM, you can run Java applications normally [on the JVM](https://www.graalvm.org/22.3/reference-manual/java/), in [Native Image](https://www.graalvm.org/22.3/reference-manual/native-image/), and now on Truffle. Java on Truffle is an implementation of the Java Virtual Machine Specification, [Java SE 8](https://docs.oracle.com/javase/specs/jvms/se8/html/index.html) and [Java SE 11](https://docs.oracle.com/javase/specs/jvms/se11/html/index.html), built upon GraalVM as a Truffle interpreter. It is a minified Java VM that includes all core components of a VM, implements the same API as the Java Runtime Environment library (libjvm.so), and reuses all JARs and native libraries from GraalVM. See the [Implementation Details](https://www.graalvm.org/22.3/reference-manual/java-on-truffle/implementation/) for more information. The project name behind this implementation is “Espresso”. Its open source version is available on [GitHub](https://github.com/oracle/graal/tree/master/espresso).
+> 
+> The Java on Truffle execution mode runs Java via a Java bytecode interpreter, implemented with the [Truffle framework](https://www.graalvm.org/22.3/graalvm-as-a-platform/language-implementation-framework/) – an open-source library for writing interpreters for programming languages. Now Java can be executed by the same principle as other languages in the GraalVM ecosystem (JavaScript, Ruby, Python, R), directly interoperate with those languages, and pass data back and forth in the same memory space. Besides complete language interoperability, with Java on Truffle you can:
+
+
+
+
 
 ---
 
